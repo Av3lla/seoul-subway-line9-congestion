@@ -3,14 +3,14 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager, rc
 rc('font', family=font_manager.FontProperties(fname='C:/Windows/Fonts/NanumGothic.ttf').get_name())
 
-""" df1 = pd.read_csv("C:/Users/iclee/Programming/교과세특/9호선 혼잡도/상선일반평일.csv", encoding='cp949')
-df2 = pd.read_csv("C:/Users/iclee/Programming/교과세특/9호선 혼잡도/하선일반평일.csv", encoding='cp949')
-df3 = pd.read_csv("C:/Users/iclee/Programming/교과세특/9호선 혼잡도/상선일반휴일.csv", encoding='cp949')
-df4 = pd.read_csv("C:/Users/iclee/Programming/교과세특/9호선 혼잡도/하선일반휴일.csv", encoding='cp949') """
-df5 = pd.read_csv("C:/Users/iclee/Programming/교과세특/9호선 혼잡도/상선급행평일.csv", encoding='cp949')
-df6 = pd.read_csv("C:/Users/iclee/Programming/교과세특/9호선 혼잡도/하선급행평일.csv", encoding='cp949')
-df7 = pd.read_csv("C:/Users/iclee/Programming/교과세특/9호선 혼잡도/상선급행휴일.csv", encoding='cp949')
-df8 = pd.read_csv("C:/Users/iclee/Programming/교과세특/9호선 혼잡도/하선급행휴일.csv", encoding='cp949')
+""" df1 = pd.read_csv("./data/상선일반평일.csv", encoding='cp949')
+df2 = pd.read_csv("./data/하선일반평일.csv", encoding='cp949')
+df3 = pd.read_csv("./data/상선일반휴일.csv", encoding='cp949')
+df4 = pd.read_csv("./data/하선일반휴일.csv", encoding='cp949') """
+df5 = pd.read_csv("./data/상선급행평일.csv", encoding='cp949')
+df6 = pd.read_csv("./data/하선급행평일.csv", encoding='cp949')
+df7 = pd.read_csv("./data/상선급행휴일.csv", encoding='cp949')
+df8 = pd.read_csv("./data/하선급행휴일.csv", encoding='cp949')
 
 """ normalWeekday = df1.copy()
 for i in range(0, len(df1.index)):
